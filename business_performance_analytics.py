@@ -5,8 +5,6 @@ Real-time revenue and client acquisition analytics
 """
 
 import json
-import matplotlib.pyplot as plt
-import pandas as pd
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional
 import random
@@ -77,13 +75,15 @@ class BusinessAnalytics:
             'key_metrics': {
                 'Monthly Revenue': f"${current_metrics['revenue_monthly']:,.0f}",
                 'Active Clients': current_metrics['active_clients'],
-                'Conversion Rate': f"{current_metrics['conversion_rate']}%",
+                'Conversion Rate': current_metrics['conversion_rate'],
+                'Conversion Rate Formatted': f"{current_metrics['conversion_rate']}%",
                 'Consultation Requests': current_metrics['consultation_requests'],
                 'Portfolio Engagement': f"{current_metrics['moltbook_interactions']} interactions",
                 'Campaign Reach': f"{current_metrics['email_campaigns_sent']} emails sent"
             },
             'phase_progress': {
-                'Phase 2 Progress': f"{trajectory['phase_2_progress']:.1f}%",
+                'Phase 2 Progress': trajectory['phase_2_progress'],
+                'Phase 2 Progress Formatted': f"{trajectory['phase_2_progress']:.1f}%",
                 'Target': f"${trajectory['phase_2_target']:,.0f}",
                 'Days Remaining': trajectory['days_remaining_phase_2'],
                 'Daily Revenue Needed': f"${trajectory['daily_revenue_needed']:,.0f}"
@@ -111,11 +111,11 @@ Generated: {dashboard['timestamp']}
 💰 REVENUE METRICS:
 • Monthly Revenue: {dashboard['key_metrics']['Monthly Revenue']}
 • Active Clients: {dashboard['key_metrics']['Active Clients']}
-• Conversion Rate: {dashboard['key_metrics']['Conversion Rate']}
+• Conversion Rate: {dashboard['key_metrics']['Conversion Rate Formatted']}
 • Daily Revenue Needed: {dashboard['phase_progress']['Daily Revenue Needed']}
 
 📈 PHASE 2 PROGRESS:
-• Progress: {dashboard['phase_progress']['Phase 2 Progress']}
+• Progress: {dashboard['phase_progress']['Phase 2 Progress Formatted']}
 • Target: {dashboard['phase_progress']['Target']}
 • Days Remaining: {dashboard['phase_progress']['Days Remaining']}
 
