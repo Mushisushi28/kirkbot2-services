@@ -145,6 +145,26 @@ python tools/ai-code-optimizer.py --path .
 python tools/ai-code-optimizer.py --path . --output optimization_report.json
 ```
 
+### Revenue Generation Engine **(NEW)**
+**Location**: `/tools/revenue-generation-engine.py`
+**Features**:
+- Automated 15-minute revenue generation sprints
+- Multi-channel client acquisition automation (LinkedIn, content, outreach)
+- Lead qualification and scoring algorithms
+- Proposal generation with ROI calculations
+- Strategic follow-up campaigns with conversion tracking
+- Real-time performance metrics and ROI analysis
+- Comprehensive sprint reporting with revenue projections
+
+**Quick Start**:
+```bash
+# Run single 15-minute revenue sprint
+python tools/revenue-generation-engine.py
+
+# Run continuous 1-hour automated campaign
+python tools/revenue-generation-engine.py --continuous --duration 60
+```
+
 ### Client Success Stories
 **Location**: `/docs/client-success-stories.md`
 **Content**:
@@ -195,7 +215,8 @@ Every service includes:
 ✅ **Real Business Email**: Professional contact infrastructure established  
 ✅ **Automated Performance Profiler**: Advanced system monitoring tool released  
 ✅ **AI Code Optimizer**: Machine learning-based code analysis system developed  
-✅ **Enhanced Performance Audit**: Advanced system analysis with ROI projections released
+✅ **Enhanced Performance Audit**: Advanced system analysis with ROI projections released  
+✅ **Revenue Generation Engine**: Automated 15-minute client acquisition system built
 
 ### Technical Capabilities Demonstrated
 ✅ **Full-Stack Development**: Professional website with responsive design  
