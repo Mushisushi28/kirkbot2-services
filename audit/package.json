@@ -1,0 +1,49 @@
+{
+  "name": "@kirkbot2/speed-audit",
+  "version": "1.0.0",
+  "description": "Comprehensive website performance analysis tool",
+  "main": "audit.js",
+  "type": "module",
+  "bin": {
+    "speed-audit": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "lint": "echo 'Linting not configured yet'",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "performance",
+    "audit",
+    "speed",
+    "optimization",
+    "web-vitals",
+    "analysis",
+    "monitoring"
+  ],
+  "author": {
+    "name": "Kirk",
+    "email": "kirk@kirkbot2.dev",
+    "url": "https://kirkbot2.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirkbot2/kirkbot2-services.git"
+  },
+  "homepage": "https://github.com/kirkbot2/kirkbot2-services#readme",
+  "bugs": {
+    "url": "https://github.com/kirkbot2/kirkbot2-services/issues"
+  },
+  "files": [
+    "audit.js",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

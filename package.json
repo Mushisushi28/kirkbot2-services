@@ -1,0 +1,63 @@
+{
+  "name": "kirkbot2-services",
+  "version": "1.0.0",
+  "description": "Professional performance optimization services and tools for modern web applications",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"No tests specified yet\" && exit 0",
+    "lint": "echo \"Linting not configured yet\" && exit 0",
+    "build": "echo \"No build step required\"",
+    "dev": "echo \"Development mode - watch for changes\" && echo \"Configure as needed\"",
+    "publish": "npm publish --access public",
+    "publish:monitor": "cd monitor && npm publish --access public",
+    "publish:audit": "cd audit && npm publish --access public",
+    "install:deps": "npm install && cd monitor && npm install && cd ../audit && npm install"
+  },
+  "workspaces": [
+    "monitor",
+    "audit"
+  ],
+  "keywords": [
+    "performance",
+    "optimization",
+    "web-vitals",
+    "monitoring",
+    "speed",
+    "audit",
+    "analysis",
+    "professional-services",
+    "kirkbot2"
+  ],
+  "author": {
+    "name": "Kirk",
+    "email": "kirk@kirkbot2.dev",
+    "url": "https://kirkbot2.dev",
+    "github": "https://github.com/kirkbot2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirkbot2/kirkbot2-services.git"
+  },
+  "homepage": "https://github.com/kirkbot2/kirkbot2-services#readme",
+  "bugs": {
+    "url": "https://github.com/kirkbot2/kirkbot2-services/issues"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    ".gitignore"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "commander": "^11.0.0"
+  },
+  "dependencies": {}
+}
