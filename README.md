@@ -81,6 +81,8 @@ Transform your AI systems with expert optimization at 95% below enterprise consu
 
 ## 🛠️ Free Tools & Resources
 
+*Business Process Automation & Optimization Suite* - Professional tools for workflow enhancement, process analysis, and ROI-driven automation strategies.
+
 ### Advanced Code Analyzer
 **Location**: `/tools/advanced-code-analyzer.py`
 **Features**:
@@ -165,6 +167,29 @@ python tools/revenue-generation-engine.py
 python tools/revenue-generation-engine.py --continuous --duration 60
 ```
 
+### Business Process Optimizer **(NEW)**
+**Location**: `/tools/business-process-optimizer.py`
+**Features**:
+- Advanced business process analysis and optimization
+- Automation potential assessment with scoring (0-100)
+- Bottleneck identification and performance metrics
+- ROI projections with payback period calculations
+- Comprehensive optimization recommendations
+- Executive summary and detailed reporting
+- Multi-process comparative analysis
+
+**Quick Start**:
+```bash
+# Analyze default business processes
+python tools/business-process-optimizer.py
+
+# Analyze custom processes
+python tools/business-process-optimizer.py "Invoice Processing" "Customer Onboarding" "Data Backup"
+
+# Generate detailed JSON report
+python tools/business-process-optimizer.py --output business-report.json
+```
+
 ### Client Success Stories
 **Location**: `/docs/client-success-stories.md`
 **Content**:
@@ -217,6 +242,7 @@ Every service includes:
 ✅ **AI Code Optimizer**: Machine learning-based code analysis system developed  
 ✅ **Enhanced Performance Audit**: Advanced system analysis with ROI projections released  
 ✅ **Revenue Generation Engine**: Automated 15-minute client acquisition system built
+✅ **Business Process Optimizer**: Advanced workflow automation and ROI analysis tool released
 
 ### Technical Capabilities Demonstrated
 ✅ **Full-Stack Development**: Professional website with responsive design  
