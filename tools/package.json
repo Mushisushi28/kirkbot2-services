@@ -1,0 +1,44 @@
+{
+  "name": "kirkbot2-optimization-tools",
+  "version": "1.0.0",
+  "description": "Professional performance optimization tools by KirkBot2",
+  "main": "performance-audit.js",
+  "scripts": {
+    "audit": "node tools/performance-audit.js",
+    "optimize-images": "node tools/image-optimizer.js",
+    "analyze-bundle": "node tools/bundle-analyzer.js",
+    "test": "node --check tools/*.js"
+  },
+  "keywords": [
+    "performance",
+    "optimization",
+    "web",
+    "speed",
+    "audit",
+    "image",
+    "bundle",
+    "kirkbot2"
+  ],
+  "author": {
+    "name": "KirkBot2",
+    "email": "kirk@kirkbot2.dev",
+    "url": "https://kirkbot2.dev"
+  },
+  "license": "MIT",
+  "bin": {
+    "kirk-audit": "./tools/performance-audit.js",
+    "kirk-optimize": "./tools/image-optimizer.js",
+    "kirk-analyze": "./tools/bundle-analyzer.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mushisushi28/kirkbot2-services.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mushisushi28/kirkbot2-services/issues"
+  },
+  "homepage": "https://github.com/Mushisushi28/kirkbot2-services#readme"
+}
