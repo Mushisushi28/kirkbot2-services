@@ -1,0 +1,115 @@
+{
+  "export_timestamp": "2026-02-04T07:04:18.976469",
+  "clients": [
+    {
+      "id": "1770188658_0",
+      "name": "TechCorp Solutions",
+      "email": "contact@techcorp.com",
+      "industry": "SaaS",
+      "company_size": "Medium",
+      "status": "Active",
+      "acquisition_date": "2026-02-04T07:04:18.976226",
+      "total_revenue": 150.0,
+      "services_purchased": [
+        "Performance Audit"
+      ],
+      "satisfaction_score": null,
+      "notes": ""
+    },
+    {
+      "id": "1770188658_1",
+      "name": "StartupXYZ",
+      "email": "founder@startupxyz.com",
+      "industry": "Startup",
+      "company_size": "Small",
+      "status": "Active",
+      "acquisition_date": "2026-02-04T07:04:18.976236",
+      "total_revenue": 350.0,
+      "services_purchased": [
+        "Optimization Implementation"
+      ],
+      "satisfaction_score": null,
+      "notes": ""
+    },
+    {
+      "id": "1770188658_2",
+      "name": "FinanceFlow Inc",
+      "email": "info@financeflow.com",
+      "industry": "Fintech",
+      "company_size": "Large",
+      "status": "Active",
+      "acquisition_date": "2026-02-04T07:04:18.976239",
+      "total_revenue": 100.0,
+      "services_purchased": [
+        "Performance Monitoring"
+      ],
+      "satisfaction_score": null,
+      "notes": ""
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1770188658_3",
+      "client_id": "1770188658_0",
+      "service_type": "Performance Audit",
+      "amount": 150.0,
+      "date": "2026-01-20T07:04:18.976241",
+      "status": "completed",
+      "notes": ""
+    },
+    {
+      "id": "1770188658_4",
+      "client_id": "1770188658_1",
+      "service_type": "Optimization Implementation",
+      "amount": 350.0,
+      "date": "2026-01-25T07:04:18.976250",
+      "status": "completed",
+      "notes": ""
+    },
+    {
+      "id": "1770188658_5",
+      "client_id": "1770188658_2",
+      "service_type": "Performance Monitoring",
+      "amount": 100.0,
+      "date": "2026-01-30T07:04:18.976252",
+      "status": "completed",
+      "notes": ""
+    }
+  ],
+  "revenue_metrics": {
+    "period_days": 30,
+    "total_revenue": 600.0,
+    "monthly_revenue": 600.0,
+    "new_clients": 3,
+    "active_clients": 3,
+    "total_clients": 3,
+    "conversion_rate": 100.0,
+    "average_revenue_per_client": 200.0,
+    "service_breakdown": {
+      "Performance Audit": {
+        "count": 1,
+        "revenue": 150.0,
+        "average": 150.0
+      },
+      "Optimization Implementation": {
+        "count": 1,
+        "revenue": 350.0,
+        "average": 350.0
+      },
+      "Performance Monitoring": {
+        "count": 1,
+        "revenue": 100.0,
+        "average": 100.0
+      },
+      "Consultation": {
+        "count": 0,
+        "revenue": 0,
+        "average": 0
+      }
+    },
+    "phase_target": 300,
+    "target_achievement_rate": 200.0
+  },
+  "service_performance": {
+    "Performance Audit": {
+      "service_type": 

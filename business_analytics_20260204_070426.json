@@ -1,0 +1,166 @@
+{
+  "export_timestamp": "2026-02-04T07:04:26.859255",
+  "clients": [
+    {
+      "id": "1770188666_0",
+      "name": "TechCorp Solutions",
+      "email": "contact@techcorp.com",
+      "industry": "SaaS",
+      "company_size": "Medium",
+      "status": "Active",
+      "acquisition_date": "2026-02-04T07:04:26.859013",
+      "total_revenue": 150.0,
+      "services_purchased": [
+        "Performance Audit"
+      ],
+      "satisfaction_score": null,
+      "notes": ""
+    },
+    {
+      "id": "1770188666_1",
+      "name": "StartupXYZ",
+      "email": "founder@startupxyz.com",
+      "industry": "Startup",
+      "company_size": "Small",
+      "status": "Active",
+      "acquisition_date": "2026-02-04T07:04:26.859022",
+      "total_revenue": 350.0,
+      "services_purchased": [
+        "Optimization Implementation"
+      ],
+      "satisfaction_score": null,
+      "notes": ""
+    },
+    {
+      "id": "1770188666_2",
+      "name": "FinanceFlow Inc",
+      "email": "info@financeflow.com",
+      "industry": "Fintech",
+      "company_size": "Large",
+      "status": "Active",
+      "acquisition_date": "2026-02-04T07:04:26.859026",
+      "total_revenue": 100.0,
+      "services_purchased": [
+        "Performance Monitoring"
+      ],
+      "satisfaction_score": null,
+      "notes": ""
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1770188666_3",
+      "client_id": "1770188666_0",
+      "service_type": "Performance Audit",
+      "amount": 150.0,
+      "date": "2026-01-20T07:04:26.859028",
+      "status": "completed",
+      "notes": ""
+    },
+    {
+      "id": "1770188666_4",
+      "client_id": "1770188666_1",
+      "service_type": "Optimization Implementation",
+      "amount": 350.0,
+      "date": "2026-01-25T07:04:26.859037",
+      "status": "completed",
+      "notes": ""
+    },
+    {
+      "id": "1770188666_5",
+      "client_id": "1770188666_2",
+      "service_type": "Performance Monitoring",
+      "amount": 100.0,
+      "date": "2026-01-30T07:04:26.859038",
+      "status": "completed",
+      "notes": ""
+    }
+  ],
+  "revenue_metrics": {
+    "period_days": 30,
+    "total_revenue": 600.0,
+    "monthly_revenue": 600.0,
+    "new_clients": 3,
+    "active_clients": 3,
+    "total_clients": 3,
+    "conversion_rate": 100.0,
+    "average_revenue_per_client": 200.0,
+    "service_breakdown": {
+      "Performance Audit": {
+        "count": 1,
+        "revenue": 150.0,
+        "average": 150.0
+      },
+      "Optimization Implementation": {
+        "count": 1,
+        "revenue": 350.0,
+        "average": 350.0
+      },
+      "Performance Monitoring": {
+        "count": 1,
+        "revenue": 100.0,
+        "average": 100.0
+      },
+      "Consultation": {
+        "count": 0,
+        "revenue": 0,
+        "average": 0
+      }
+    },
+    "phase_target": 300,
+    "target_achievement_rate": 200.0
+  },
+  "service_performance": {
+    "Performance Audit": {
+      "service_type": "Performance Audit",
+      "total_clients": 1,
+      "total_revenue": 150.0,
+      "average_revenue": 150.0,
+      "satisfaction_score": 0,
+      "completion_time_days": 2.0,
+      "revenue_growth_rate": 0
+    },
+    "Optimization Implementation": {
+      "service_type": "Optimization Implementation",
+      "total_clients": 1,
+      "total_revenue": 350.0,
+      "average_revenue": 350.0,
+      "satisfaction_score": 0,
+      "completion_time_days": 7.0,
+      "revenue_growth_rate": 0
+    },
+    "Performance Monitoring": {
+      "service_type": "Performance Monitoring",
+      "total_clients": 1,
+      "total_revenue": 100.0,
+      "average_revenue": 100.0,
+      "satisfaction_score": 0,
+      "completion_time_days": 1.0,
+      "revenue_growth_rate": 0
+    }
+  },
+  "forecast": {
+    "current_monthly_revenue": 600.0,
+    "growth_rate": 15.0,
+    "forecast_periods": 3,
+    "monthly_forecast": [
+      {
+        "month": 1,
+        "revenue": 690.0,
+        "cumulative": 690.0
+      },
+      {
+        "month": 2,
+        "revenue": 793.4999999999999,
+        "cumulative": 1483.5
+      },
+      {
+        "month": 3,
+        "revenue": 912.5249999999999,
+        "cumulative": 2396.0249999999996
+      }
+    ],
+    "total_forecast": 2396.0249999999996,
+    "phase_completion_months": 1
+  }
+}
