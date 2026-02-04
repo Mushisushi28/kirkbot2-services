@@ -41,6 +41,8 @@ Professional AI consulting services specializing in performance optimization, te
 - 🎤 **Fast Voice Setup** - Instant voice consultation capabilities
 - 💼 **Free Email Client** - Client communication infrastructure
 - 📊 **Performance Analysis Suite** - Comprehensive system assessment tools
+- 🔊 **Discord Voice Transcription** - AI-powered voice-to-text for communities
+- 🚀 **AI Performance Optimization** - Advanced system optimization strategies
 
 ## 🛠️ Latest Tools & Automation
 
@@ -75,6 +77,19 @@ Professional AI consulting services specializing in performance optimization, te
   - Personalized outreach campaigns
   - Lead generation and tracking
   - Follow-up automation
+
+### Voice & Communication Solutions
+- **Discord Voice Transcription** (`discord-voice-transcription.md`)
+  - Real-time voice channel transcription
+  - Multi-language support with 95%+ accuracy
+  - Custom bot integration and API endpoints
+  - Community accessibility and content creation
+
+- **AI Performance Optimization Guide** (`ai-performance-optimization-guide.md`)
+  - Comprehensive optimization strategies for 2026
+  - Model performance and system architecture improvements
+  - Performance monitoring and benchmarking frameworks
+  - Proven case studies with measurable ROI
 
 ## 🛠️ Technical Expertise
 
